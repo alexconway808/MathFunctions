@@ -43,6 +43,14 @@ describe("Math Functions", function() {
  });
 
 
+//test_add_1 function
+
+  it("should add two numbers properly to equal 9", function(){
+	result = add(5,4);
+	expect(result).toBe(8);
+ });
+
+
 
 
 });	
