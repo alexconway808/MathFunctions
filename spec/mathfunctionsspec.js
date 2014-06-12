@@ -39,7 +39,7 @@ describe("Math Functions", function() {
 
   it("should take a base number and turn it to the power of the exponent properly", function(){
 	result = power(10,2);
-	expect(result).toBe(99);
+	expect(result).toBe(100);
  });
 
 
