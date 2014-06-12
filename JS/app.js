@@ -1,4 +1,4 @@
-(function(){
+// (function(){
 
 	function add(x,y) {
 		return x + y;
@@ -79,7 +79,7 @@
 //Step 10.5
 	console.log(10 - subtract(19, 10) );
 
-})();
+// })();
 
 
 
