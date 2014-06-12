@@ -1,16 +1,14 @@
 // (function(){
 
-	function add(x,y) {
+	function add(x, y) {
 		return x + y;
 	}
 
-// // //
 
 	function subtract(x,y) {
 		return (x - y);
 	}
 
-// // //
 
 	function multiply(x,y) {
 		return (x * y);
@@ -51,7 +49,6 @@
 	function test_subtract_1(x,y) {
 		var x = 5;
 		var y = 4;
-		var 
 	}
 
 //
