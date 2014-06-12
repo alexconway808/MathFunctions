@@ -27,13 +27,21 @@ describe("Math Functions", function() {
  });
 
 
-
 //divide function
 
   it("should divide numbers properly", function(){
 	result = divide(100,10);
-	expect(result).toBe(9);
+	expect(result).toBe(10);
  });
+
+
+//power function
+
+  it("should take a base number and turn it to the power of the exponent properly", function(){
+	result = power(10,2);
+	expect(result).toBe(99);
+ });
+
 
 
 
