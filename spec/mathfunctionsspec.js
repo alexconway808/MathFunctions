@@ -16,6 +16,14 @@ describe("Math Functions", function() {
   	expect(result).toBe(-1);
   });
 
+//multiply function
+  it("should multiply numbers properly", function(){
+	result = multiply(2,3);
+	expect(result).toBe(1);
+ });
 
+
+
+  
 
 });	
