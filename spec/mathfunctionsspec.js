@@ -1,6 +1,7 @@
 describe("Math Functions", function() {
 	var result; 
 
+
 //add function
 
   it("should add numbers properly", function() {
@@ -9,6 +10,7 @@ describe("Math Functions", function() {
 
   });
 
+
 //subtract function
 
   it("should subtract numbers properly", function(){
@@ -16,14 +18,23 @@ describe("Math Functions", function() {
   	expect(result).toBe(-1);
   });
 
+
 //multiply function
+
   it("should multiply numbers properly", function(){
 	result = multiply(2,3);
-	expect(result).toBe(1);
+	expect(result).toBe(6);
  });
 
 
 
-  
+//divide function
+
+  it("should divide numbers properly", function(){
+	result = divide(100,10);
+	expect(result).toBe(9);
+ });
+
+
 
 });	
