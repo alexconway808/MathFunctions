@@ -61,9 +61,17 @@ describe("Math Functions", function() {
 
 //test_subtract_1 function
 
-	it("should subtract two numbers properly to equal")
+	it("should subtract two numbers properly to equal 1", function(){
+		result = subtract(5,4);
+		expect(result).toBe(1);
+	});
 
+//test_subtract_2 function
 
+	it("should subtract two numbers, take that result then subtract another number", function(){
+		result = subtract(5,4);
+		expect(result).toBe(1);
+	});	
 
 
 
