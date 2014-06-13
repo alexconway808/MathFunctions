@@ -54,11 +54,14 @@ describe("Math Functions", function() {
 //test_add_2 function
 
   it("should add two numbers, take that result then add another number", function(){
-	result = add(5,4,3);
-	expect(result).toBe(11);
+	result = test_add_2();
+	expect(result).toBe(12);
  });
 
 
+//test_subtract_1 function
+
+	it("should subtract two numbers properly to equal")
 
 
 
