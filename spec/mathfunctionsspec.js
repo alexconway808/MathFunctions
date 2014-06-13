@@ -47,8 +47,20 @@ describe("Math Functions", function() {
 
   it("should add two numbers properly to equal 9", function(){
 	result = add(5,4);
-	expect(result).toBe(8);
+	expect(result).toBe(9);
  });
+
+
+//test_add_2 function
+
+  it("should add two numbers, take that result then add another number", function(){
+	result = add(5,4,3);
+	expect(result).toBe(11);
+ });
+
+
+
+
 
 
 
